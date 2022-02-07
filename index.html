@@ -1,21 +1,43 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    
-    
-    <title>Home</title>
-    </head>
-    
-    <body>
-    
-    <div class="top">
-        Mutteb Abdullah
-        </div>
-    
-    
-    
-    </body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
 
 
+
+    <script>
+
+        let My_Friend=[1,5,7,"Muteb","All","Mohmed",12345];
+
+        let Onle_Number=[];
+        let Word=[];
+
+        for(let i=0;i<My_Friend.length;i++){
+
+            if(typeof My_Friend[i]==='number'){
+                Onle_Number.push(My_Friend[i]);
+            }
+            
+        }
+
+        for(let j=0;j<My_Friend.length;j++){
+            
+                if(typeof My_Friend[j]==='string'){
+                Word.push(My_Friend[j]);
+            
+            }
+        }
+        console.log(Onle_Number);
+        console.log(Word);
+
+
+
+    </script>
+    
+</body>
 </html>
